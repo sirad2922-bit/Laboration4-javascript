@@ -1,10 +1,10 @@
-/*Uppgift 3: Skriv ett program som tar en persons ålder som input och skriver ut om personen är barn, vuxen eller pensionär.*/
+/*Uppgift 3: Skriv ett program som tar en persons ålder som input och skriver ut om personen är barn, vuxen eller pensionär.Sirad Ahmed*/
 "use strict";
-const age = 40;
+const age = 10;
 if (age >= 65) {
-    console.log("pensionär");
+    console.log("Pensionär");
 } else if (age >= 18) {
-    console.log("vuxen");
+    console.log("Vuxen");
 } else {
-    console.log("barn");
+   console.log("Barn");
 }
