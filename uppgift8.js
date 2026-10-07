@@ -7,8 +7,12 @@ const book = {
     published: true,
     publicationYear: 2023
 };
-console.log("Bok: " + book.title);
-console.log("Författare: " + book.author);
-console.log("Sidor: " + book.pages);
-console.log("Publicerad: " + book.published);
-console.log("Utgivningsår: " + book.publicationYear);
+
+function printBookInfo(book) {
+    console.log("Bok: " + book.title);
+    console.log("Författare: " + book.author);
+    console.log("Sidor: " + book.pages);
+    console.log("Publicerad: " + book.published);
+    console.log("Utgivningsår: " + book.publicationYear);
+}
+printBookInfo(book);
